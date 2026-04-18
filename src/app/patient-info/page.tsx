@@ -1,8 +1,8 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger
+import { 
+  Accordion, 
+  AccordionContent, 
+  AccordionItem, 
+  AccordionTrigger 
 } from "@/components/ui/accordion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Clock, CreditCard, UserPlus, LogOut } from "lucide-react";
@@ -24,7 +24,7 @@ export default function PatientInfoPage() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12">
-
+            
             {/* Process Sections */}
             <div className="space-y-12">
               <div className="space-y-6">
