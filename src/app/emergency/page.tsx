@@ -83,7 +83,7 @@ export default function EmergencyPage() {
               <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900">When to Seek Emergency Care</h2>
               <p className="text-slate-600 text-lg">Immediate attention is required if you experience any of the following symptoms:</p>
             </div>
-
+            
             <div className="grid md:grid-cols-2 gap-12">
               <div className="bg-white p-10 rounded-[3rem] shadow-sm border border-slate-100 space-y-6">
                 <h4 className="font-extrabold text-2xl text-red-600 flex items-center gap-2">
