@@ -2,12 +2,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { HOSPITAL_INFO } from "@/constants";
-import {
-  Heart,
-  Stethoscope,
-  ShieldCheck,
-  Clock,
-  ArrowRight,
+import { 
+  Heart, 
+  Stethoscope, 
+  ShieldCheck, 
+  Clock, 
+  ArrowRight, 
   PhoneCall,
   Users,
   Target,
@@ -45,7 +45,7 @@ export default function Home() {
               <span className="text-primary">For Every Stage Of Life</span>
             </h1>
             <p className="text-lg text-slate-600 max-w-lg leading-relaxed">
-              Kandudi Specialist Hospital and Maternity is dedicated to delivering comprehensive,
+              Kandudi Specialist Hospital and Maternity is dedicated to delivering comprehensive, 
               patient-centered medical care with a focus on maternal and surgical excellence in Achina.
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
@@ -67,7 +67,7 @@ export default function Home() {
                </div>
             </div>
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-[3rem] -rotate-3 border-4 border-white"></div>
-
+            
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl flex items-center gap-4 z-20">
               <div className="bg-primary/10 p-3 rounded-full">
                 <Clock className="w-6 h-6 text-primary" />
@@ -114,7 +114,7 @@ export default function Home() {
               Specialized healthcare services with an emphasis on maternal safety and clinical precision.
             </p>
           </div>
-
+          
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="hover:shadow-xl transition-all border-none bg-slate-50 p-4">
               <CardContent className="pt-8">
@@ -179,10 +179,10 @@ export default function Home() {
                 <h2 className="text-4xl md:text-5xl font-bold text-slate-900 leading-tight">Dr. Emmanuel N. Monago</h2>
                 <p className="text-xl text-slate-500 font-medium italic">Consultant Obstetrician & Gynaecologist</p>
               </div>
-
+              
               <div className="space-y-4 text-slate-600 text-lg leading-relaxed">
                 <p>
-                  With over 40 years of experience, Dr. Monago is recognized for his excellence in maternal care,
+                  With over 40 years of experience, Dr. Monago is recognized for his excellence in maternal care, 
                   complex obstetric cases, and gynecological surgeries.
                 </p>
                 <p>
@@ -267,13 +267,13 @@ export default function Home() {
       {/* Map + Contact Strip */}
       <section className="grid md:grid-cols-2">
         <div className="h-[450px] bg-slate-100">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15858.972306236316!2d7.068285!3d6.231644!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104378396f9a656d%3A0x6734c562506b3e6e!2sKandudi%20Specialist%20Hospital%20And%20Maternity!5e0!3m2!1sen!2sng!4v1713451234567!5m2!1sen!2sng"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen
-            loading="lazy"
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15858.972306236316!2d7.068285!3d6.231644!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104378396f9a656d%3A0x6734c562506b3e6e!2sKandudi%20Specialist%20Hospital%20And%20Maternity!5e0!3m2!1sen!2sng!4v1713451234567!5m2!1sen!2sng" 
+            width="100%" 
+            height="100%" 
+            style={{ border: 0 }} 
+            allowFullScreen 
+            loading="lazy" 
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
