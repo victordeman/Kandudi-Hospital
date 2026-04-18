@@ -22,7 +22,7 @@ export default function AboutPage() {
             <div className="space-y-6">
               <h2 className="text-3xl font-bold text-slate-900">Our Story</h2>
               <p className="text-slate-600 leading-relaxed">
-                Kandudi Specialist Hospital and Maternity is a private healthcare facility dedicated to delivering comprehensive, patient-centered medical care.
+                Kandudi Specialist Hospital and Maternity is a private healthcare facility dedicated to delivering comprehensive, patient-centered medical care. 
                 With a strong focus on Obstetrics and Gynaecology, the hospital provides expert maternal, surgical, and general medical services supported by modern diagnostic facilities.
               </p>
               <p className="text-slate-600 leading-relaxed">
