@@ -5,6 +5,14 @@ import { useState } from "react";
 import { HOSPITAL_INFO, NAV_LINKS } from "@/constants";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Clock } from "lucide-react";
+import {
+  NavigationMenu,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  navigationMenuTriggerStyle,
+} from "@/components/ui/navigation-menu";
+import { cn } from "@/lib/utils";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,20 +40,24 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="transition-colors hover:text-primary"
-            >
-              {link.name}
-            </Link>
-          ))}
-          <Button asChild size="sm" className="bg-primary hover:bg-primary/90">
+        <div className="hidden md:flex items-center gap-6">
+          <NavigationMenu>
+            <NavigationMenuList>
+              {NAV_LINKS.map((link) => (
+                <NavigationMenuItem key={link.href}>
+                  <Link href={link.href} legacyBehavior passHref>
+                    <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "bg-transparent")}>
+                      {link.name}
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+              ))}
+            </NavigationMenuList>
+          </NavigationMenu>
+          <Button asChild size="sm" className="bg-primary hover:bg-primary/90 rounded-full px-6">
             <Link href="/appointments">Book Appointment</Link>
           </Button>
-        </nav>
+        </div>
 
         {/* Mobile Toggle */}
         <button
@@ -72,7 +84,7 @@ export default function Navbar() {
           <div className="flex flex-col gap-2 pt-2 border-t">
              <p className="text-xs font-bold text-primary flex items-center gap-2"><Phone className="w-3 h-3" /> {HOSPITAL_INFO.phone}</p>
           </div>
-          <Button asChild className="w-full">
+          <Button asChild className="w-full rounded-full">
             <Link href="/appointments" onClick={() => setIsOpen(false)}>Book Appointment</Link>
           </Button>
         </div>
