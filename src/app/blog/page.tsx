@@ -97,11 +97,11 @@ export default function BlogPage() {
               Subscribe to our monthly newsletter for the latest maternal health tips, hospital news, and medical advice from Dr. Monago and our specialist team.
             </p>
             <form className="flex flex-col md:flex-row gap-3">
-              <input
-                type="email"
-                placeholder="Enter your email address"
+              <input 
+                type="email" 
+                placeholder="Enter your email address" 
                 className="flex-grow h-14 px-6 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all"
-                required
+                required 
               />
               <Button size="lg" className="h-14 px-8 rounded-xl font-bold">Subscribe Now</Button>
             </form>
