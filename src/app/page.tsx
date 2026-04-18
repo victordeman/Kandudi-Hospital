@@ -253,7 +253,7 @@ export default function Home() {
                   </p>
                   <div className="flex items-center gap-4">
                     <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center font-bold">
-                      {t.author[5]}
+                      {t.author.charAt(0)}
                     </div>
                     <p className="font-bold text-sm text-white">{t.author}</p>
                   </div>
