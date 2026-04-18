@@ -37,7 +37,7 @@ export default function ContactPage() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-3 gap-12">
-
+            
             {/* Contact Info */}
             <div className="space-y-8">
               <div className="space-y-6">
@@ -147,13 +147,13 @@ export default function ContactPage() {
 
       {/* Map Embed Full Width */}
       <section className="h-[550px] w-full bg-slate-100 border-t border-b">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15858.972306236316!2d7.068285!3d6.231644!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104378396f9a656d%3A0x6734c562506b3e6e!2sKandudi%20Specialist%20Hospital%20And%20Maternity!5e0!3m2!1sen!2sng!4v1713451234567!5m2!1sen!2s2v1713451234567!5m2!1sen!2sng"
-          width="100%"
-          height="100%"
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15858.972306236316!2d7.068285!3d6.231644!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104378396f9a656d%3A0x6734c562506b3e6e!2sKandudi%20Specialist%20Hospital%20And%20Maternity!5e0!3m2!1sen!2sng!4v1713451234567!5m2!1sen!2s2v1713451234567!5m2!1sen!2sng" 
+          width="100%" 
+          height="100%" 
+          style={{ border: 0 }} 
+          allowFullScreen 
+          loading="lazy" 
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
