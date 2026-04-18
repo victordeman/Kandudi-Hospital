@@ -1,8 +1,8 @@
-import {
-  Heart,
-  Scissors,
-  Baby,
-  Stethoscope,
+import { 
+  Heart, 
+  Scissors, 
+  Baby, 
+  Stethoscope, 
   Microscope,
   CheckCircle2
 } from "lucide-react";
@@ -95,7 +95,7 @@ export default function ServicesPage() {
           <h2 className="text-3xl md:text-4xl font-bold">Specialized Procedures</h2>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              "Caesarean Section", "Myomectomy", "Total Abdominal Hysterectomy",
+              "Caesarean Section", "Myomectomy", "Total Abdominal Hysterectomy", 
               "D&C", "Exploratory Laparotomy", "Minor Surgical Procedures"
             ].map((proc) => (
               <Badge key={proc} variant="outline" className="text-white border-white/40 px-6 py-3 text-lg font-bold rounded-full bg-white/5">
@@ -112,7 +112,7 @@ export default function ServicesPage() {
           <div className="max-w-3xl mx-auto space-y-8 bg-slate-50 p-12 rounded-[3rem]">
             <h2 className="text-3xl font-bold">Need a Specialist Consultation?</h2>
             <p className="text-slate-600 text-lg leading-relaxed">
-              Our specialists are available for consultations and scheduled procedures.
+              Our specialists are available for consultations and scheduled procedures. 
               Contact us today to book an appointment or learn more about our patient-centered care.
             </p>
             <div className="flex justify-center flex-wrap gap-4">
