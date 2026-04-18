@@ -39,7 +39,7 @@ export default function AppointmentsPage() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-3 gap-12">
-
+            
             {/* Appointment Info */}
             <div className="space-y-8">
               <div className="space-y-4">
