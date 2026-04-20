@@ -1,5 +1,6 @@
+import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
-import { Award, GraduationCap, Calendar, ShieldCheck, Users } from "lucide-react";
+import { Award, GraduationCap, Calendar, ShieldCheck } from "lucide-react";
 
 export default function DoctorsPage() {
   const doctor = {
@@ -35,8 +36,14 @@ export default function DoctorsPage() {
           <div className="grid md:grid-cols-12 gap-12">
             {/* Image Placeholder */}
             <div className="md:col-span-5 lg:col-span-4">
-              <div className="bg-slate-100 rounded-[3rem] aspect-[4/5] flex items-center justify-center sticky top-24 border-8 border-slate-50 shadow-xl overflow-hidden">
-                <Users className="w-32 h-32 text-slate-300" />
+              <div className="bg-slate-100 rounded-[3rem] aspect-[4/5] flex items-center justify-center sticky top-24 border-8 border-slate-50 shadow-xl overflow-hidden relative">
+                <Image
+                  src="/dr-emma-monago.jpeg"
+                  alt="Dr. Emmanuel N. Monago"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
             </div>
 
