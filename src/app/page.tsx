@@ -10,7 +10,6 @@ import {
   Clock, 
   ArrowRight, 
   PhoneCall,
-  Users,
   Target,
   Eye,
   Shield
