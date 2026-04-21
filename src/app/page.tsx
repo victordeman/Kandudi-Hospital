@@ -174,9 +174,12 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="relative h-[600px] bg-slate-200 rounded-[3rem] overflow-hidden shadow-xl border-8 border-white">
-               <div className="flex items-center justify-center h-full text-slate-400">
-                 <Users className="w-32 h-32" />
-               </div>
+              <Image
+                src="/dr-emma-monago.jpeg"
+                alt="Dr. Emmanuel N. Monago"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="space-y-8">
               <div className="space-y-2">
