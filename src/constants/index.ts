@@ -2,7 +2,7 @@ export const HOSPITAL_INFO = {
   name: "Kandudi Specialist Hospital and Maternity",
   tagline: "All For Life",
   email: "kandudihospital@yahoo.com",
-  phone: "+234 803 668 7342",
+  phone: "+234703 300 8239",
   address: "Oye Market, Achina, Aguata L.G.A., Anambra State, Nigeria",
   googleMapsLink: "https://maps.app.goo.gl/TBbgSsPPj2zvfisKA?g_st=ic",
   emergencyServices: "24/7 available + Ambulance",
