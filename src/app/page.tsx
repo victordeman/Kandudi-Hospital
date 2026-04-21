@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { HOSPITAL_INFO } from "@/constants";
@@ -62,9 +63,13 @@ export default function Home() {
           <div className="hidden md:block relative h-[550px]">
             {/* Compassionate hero image representation */}
             <div className="absolute inset-0 bg-blue-200 rounded-[3rem] overflow-hidden shadow-2xl rotate-3">
-               <div className="flex items-center justify-center h-full text-blue-400 opacity-40">
-                 <Heart className="w-48 h-48" />
-               </div>
+               <Image
+                src="/hospital-building.jpg"
+                alt="Kandudi Specialist Hospital Building"
+                fill
+                className="object-cover"
+                priority
+               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent rounded-[3rem] -rotate-3 border-4 border-white"></div>
             

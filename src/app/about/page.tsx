@@ -1,5 +1,6 @@
+import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
-import { Heart, Target, Eye, Shield, Award } from "lucide-react";
+import { Target, Eye, Shield, Award } from "lucide-react";
 import { HOSPITAL_INFO } from "@/constants";
 
 export default function AboutPage() {
@@ -29,8 +30,13 @@ export default function AboutPage() {
                 We are committed to safe clinical outcomes, compassionate care, and continuous excellence in healthcare delivery. Our team of experienced professionals works tirelessly to ensure that every patient receives the highest standard of medical attention.
               </p>
             </div>
-            <div className="bg-slate-100 rounded-[3rem] h-[450px] flex items-center justify-center border-8 border-slate-50 shadow-xl overflow-hidden">
-               <Heart className="w-32 h-32 text-slate-300" />
+            <div className="relative bg-slate-100 rounded-[3rem] h-[450px] flex items-center justify-center border-8 border-slate-50 shadow-xl overflow-hidden">
+               <Image
+                src="/hospital-building.jpg"
+                alt="Kandudi Specialist Hospital Facility"
+                fill
+                className="object-cover"
+               />
             </div>
           </div>
         </div>
