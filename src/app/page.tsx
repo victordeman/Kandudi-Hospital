@@ -12,7 +12,8 @@ import {
   PhoneCall,
   Target,
   Eye,
-  Shield
+  Shield,
+  MapPin
 } from "lucide-react";
 
 const testimonials = [
@@ -295,7 +296,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex gap-4">
-              <Users className="w-6 h-6 shrink-0" />
+              <MapPin className="w-6 h-6 shrink-0" />
               <div>
                 <p className="font-bold">Hospital Address</p>
                 <p className="opacity-90 leading-relaxed">{HOSPITAL_INFO.address}</p>
