@@ -45,11 +45,11 @@ export default function Navbar() {
             <NavigationMenuList>
               {NAV_LINKS.map((link) => (
                 <NavigationMenuItem key={link.href}>
-                  <Link href={link.href} legacyBehavior passHref>
-                    <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "bg-transparent")}>
+                  <NavigationMenuLink asChild className={cn(navigationMenuTriggerStyle(), "bg-transparent")}>
+                    <Link href={link.href}>
                       {link.name}
-                    </NavigationMenuLink>
-                  </Link>
+                    </Link>
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
               ))}
             </NavigationMenuList>
